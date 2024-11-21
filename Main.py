@@ -50,7 +50,7 @@ class professor(person):
         self.salary=salary
 
     def give_feedback(self,student,feedback):
-        print ("Feedback for {student}")
+        print ("Feedback for {student.name} ")
 
 
 
